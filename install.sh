@@ -40,5 +40,5 @@ then
 fi
 
 echo -e "\e[97mInstalling Cron"
-#crontab -l | { cat; echo "0 16 * * * /opt/google-compute-snapshot/gcloud-snapshot.sh -d 30 >/dev/null 2>&1"; } | crontab -
+crontab -l | { cat; echo "0 16 * * * /opt/google-compute-snapshot/gcloud-snapshot.sh -d 30 >/dev/null 2>&1"; } | crontab -
 echo -e "\e[92m\e[1mAll done enjoy :)\e[49m"
