@@ -23,8 +23,11 @@ gcloud-snapshot.sh will:
 ## Installation
 
 ssh on to the server you wish to have backed up
-
-**Install Script**: Download the latest version of the snapshot script and make it executable:
+**Install Script**: Excute following with sudo permissions
+```
+bash <(curl -s https://raw.githubusercontent.com/fivepointfive/google-compute-snapshot/master/install.sh)
+```
+**Install Manually**: Download the latest version of the snapshot script and make it executable:
 ```
 cd ~
 wget https://raw.githubusercontent.com/jacksegal/google-compute-snapshot/master/gcloud-snapshot.sh
