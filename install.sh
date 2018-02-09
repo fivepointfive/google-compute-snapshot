@@ -23,7 +23,7 @@ chmod +x /opt/google-compute-snapshot/gcloud-snapshot.sh
 # Test Run
 echo -e "\n\n\e[97mRunnig test. Please wait"
 echo -e "\e[90m--------------------------"
-sh /opt/google-compute-snapshot/gcloud-snapshot.sh
+/opt/google-compute-snapshot/gcloud-snapshot.sh
 echo -e "\e[90m--------------------------"
 echo -e "\e[97mTest finished\n"
 
